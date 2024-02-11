@@ -1,0 +1,66 @@
+<html><html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>USER-Signup</title>
+    </head>
+    <body>
+        <nav class="navbar">
+    
+            <img class="max-230" src="/img/logo.jpeg" >
+            <a  data-bs-toggle="collapse" data-bs-target="#menu" class="float-end d-lg-none pt-1 ps-3"><i class="bi pt-1 fs-1 cp bi-list"></i></a>
+       </div>
+      <div class="title">
+            <h1> D R  Detection and Classificatioon</h1>
+          </div>
+          <ul class="navlist">
+              <li class="home"><button class="btn" onclick="home()">Home</button></li> 
+              <li class="signup"><button class="btn" onclick="Admin()">Admin</button></li>
+              <li class="signup"><button class="btn" onclick="User()">User</button></li>
+          </ul>
+      </nav>
+    <div class="row contact-rooo big-padding no-margin">
+        <div class="container">
+           <div class="row">
+        <form action="user_reg2" method="post">
+        
+            <div style="padding:20px" class="col-sm-7">
+            <h2 class="fs-4 fw-bold" >Registration Form</h2> <br>
+                <div class="row cont-row">
+                    <div  class="col-sm-3"><label>Name </label><span>:</span></div>
+                    <div class="col-sm-8"><input type="text" placeholder="Enter Name" name="name" class="form-control input-sm"  ></div>
+                </div>
+                <div  class="row cont-row">
+                    <div  class="col-sm-3"><label>User name </label><span>:</span></div>
+                    <div class="col-sm-8"><input type="text" name="uid" placeholder="Enter User name" class="form-control input-sm"  ></div>
+                </div>
+                 <div  class="row cont-row">
+                    <div  class="col-sm-3"><label>Password </label><span>:</span></div>
+                    <div class="col-sm-8"><input type="password" name="pwd" placeholder="Enter Password" class="form-control input-sm"  ></div>
+                </div>
+                  <div  class="row cont-row">
+                    <div  class="col-sm-3"><label>Email </label><span>:</span></div>
+                    <div class="col-sm-8"><input type="text" name="email" placeholder="Enter Email Address" class="form-control input-sm"  ></div>
+                </div>
+                 <div  class="row cont-row">
+                    <div  class="col-sm-3"><label>Mobile Number</label><span>:</span></div>
+                    <div class="col-sm-8"><input type="text" name="mno" placeholder="Enter Mobile Number" class="form-control input-sm"  ></div>
+                </div>
+        
+                 <div style="margin-top:10px;" class="row">
+                    <div style="padding-top:10px;" class="col-sm-3"><label></label></div>
+                    <div class="col-sm-8">
+                     <button class="btn btn-primary fs-5 btn-sm">Submit</button>
+                    </div>
+                </div>
+            </div>
+            
+        </form>
+          </div>
+        </div>
+        </div>
+        <script src="js/script.js"></script>
+</body>
+</html>

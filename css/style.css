@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;900&display=swap");
+.bg-primary {
+  background-color: #f16f7e !important;
+}
+
+.text-primary {
+  color: #f16f7e !important;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+    cursor: pointer;
+    height: 80px;
+    background-color: black;
+    color: aliceblue;
+}
+img {
+    max-width: 100%;
+    border-radius: 25px;
+    margin: 0 30px;
+  }
+
+.navlist {
+    width: 70%;
+    /* background-color: rgb(159, 5, 255); */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar title {
+    font-size: 1000px;
+    font-weight: 1000;
+
+}
+
+.navlist li {
+    list-style: none;
+    padding: 20px 30px;
+    display: flex;
+
+}
+
+.navlist li button {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(31, 4, 4);
+    background-color: aquamarine;
+    border-radius: 20px;
+padding: 17px;
+
+}
+
+.navlist li button:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+}
+
+.firstSec {
+    height: 100vh;
+    text-align: center;
+    font-size: 70px;
+    background: url(../img/eye.png);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+
+
+login-form loto {
+    text-align: center;
+    font-weight: 400;
+    padding: 100;
+    margin: 45px;
+}
+
+
+.login-form {
+    margin-top: 50px;
+    margin-left: 30%;
+    padding: 100px 100px;
+    display: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 300px;
+    height: fit-content;
+    font-size: 40px;
+    border-radius: 20px;
+    background: #232323;
+    color: aliceblue;
+    box-shadow: 5px 5px 84px #0e0e0e,
+        -5px -5px 84px #383838;
+}
+
+.input-field {
+    background-color: #212121;
+    min-width: 80%;
+    height: 40px;
+   margin: 30px 0;
+   padding: 10px;
+    /* text-align: center; */
+    border: 2px solid white;
+    border-radius: 5px;
+    justify-content: center;
+    /* box-shadow: 3px 3px 2px rgb(249, 255, 85); */
+}
+
+.input-field {  color: rgb(0, 255, 255);
+    background-color: #212121;
+    outline-color: rgb(0, 255, 255);
+    /* box-shadow: -3px -3px 15px rgb(0, 255, 255); */
+    transition: .1s;
+    transition-property:all;
+}
+.login-form button {
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(31, 4, 4);
+    background-color: rgb(224, 228, 237);
+    border-radius: 20px;
+    text-align: center;
+    text-shadow: azure;
+    padding: 22px;
+}
+.input-group {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 160px;
+  }
+  
+  .submit-button {
+    font-size: 17px;
+    padding: 0.5em 2em;
+    border: transparent;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24);
+    background: #2E2E2E;
+    border-radius: 0 10px 10px 0;
+    transition: 0.3s;
+  }
+  
+  .submit-button:hover {
+    transition: 0.3s;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    cursor: pointer;
+  }
+  
+  .submit-button:active {
+    transform: translate(0em, 0.2em);
+  }
+  
+  .submit-button span {
+    font-weight: 800;
+    letter-spacing: 2px;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.3s;
+  }
+  
+  .submit-button:hover span {
+    background: #2E2E2E;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.3s;
+  }
+  
+  #input-field {
+    background-color: #2E2E2E;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    width: 300px;
+    padding-left: 8px;
+    color: white;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  ::placeholder {
+    color: rgb(184, 184, 184);
+  }
